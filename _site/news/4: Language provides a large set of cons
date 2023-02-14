@@ -1,0 +1,19 @@
+4: Language provides a large set of constructs, out of which a person will only use a small subset. In any language, there is usually more than one way to convey the same meaning. A speaker or writer makes a conscious or unconscious choice to use one of these forms. If a person tends to choose a certain form over all others routinely, this constitutes the style of that person.
+
+5: These are some reviews that we collected from Goodreads. …
+Similar to these, we saw that many reviews on Goodreads mention an author’s writing style.
+Of course, the story is important, but the writing style also plays a critical role in the reader’s view of a book and determines whether a book will be liked by readers or not.
+
+6: Assessing the quality of literary work and predicting its likability is useful to the publication industry, to the writers themselves and even to the readers and critics.
+Editors have the difficult task of making the go/no-go decision for all manuscripts they receive, and the revenue for their publishing house depends on the accuracy of that judgment. A likability prediction system can help with that decision. It is also possible to adapt our system to provide assistance to writers in shaping their work to be more likable.
+Also, for readers, the experience of choosing a book can be daunting, considering the overwhelming number of books being published and these systems can be a valuable resource for supporting buying decisions.
+
+7: There were many challenges in this work and these are the two major ones. To even get started with this project, a major hurdle was the lack of freely available public sources of books. The only available source was Project Gutenburg, which we ended up using.
+Another challenge was that, as you can imagine, the content of books is very long. Most recent work on NLP is focused on short texts such as tweets and reviews and generally these do not work well for long texts like books. We had to define aggregation methods for them to work with long texts, which I will discuss in coming slides.
+
+8: It was also a challenge to define likability. Previous work had used download counts from Project Gutenberg as a proxy for success.
+But we found that this approach had major drawbacks. Popular books such as ‘The Prince and the Pauper’, and `The Adventures of Captain Horn’, which was the third best-selling book in its time were labeled as unsuccessful due to their low download counts.  
+So, we proposed a new definition of likability for books by looking at their ratings in Goodreads. We consider only those books that have at least 10 reviews …
+ I know that success is harder than likability because it is not enough for a book to be likable for it to be successful, there are many external factors like author’s popularity and current trends that dictate success. But for our work, we are going to use them interchangeably for the ease of explanation.
+
+12: sentiword
